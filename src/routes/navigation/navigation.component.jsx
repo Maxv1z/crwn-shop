@@ -3,21 +3,21 @@ import { Fragment } from "react";
 
 import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
 
-import './navigation.style.scss';
+import "./navigation.style.scss";
 
 const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          <CrwnLogo className="logo"/>
+          <CrwnLogo className="logo" />
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
             Shop
           </Link>
-          <Link className="nav-link" to="/sign-in">
-            Sign In 
+          <Link className="nav-link" to="/auth">
+            Sign In
           </Link>
         </div>
       </div>
